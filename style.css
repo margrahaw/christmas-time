@@ -2,24 +2,24 @@ body {
     width: 100%;
     height: 100%;
     background: #000033;
-  }
-  #content {
+}
+#content {
     position: relative;
     height: 800px;
     width: 600px;
     margin: 0px auto;
-  }
+}
 
-  #star-burst {
-      position: relative;
-      left: 200px;
-      width: 200px;
-      height: 200px;
-      background-image: 
-      radial-gradient(circle, yellow, #000033 40%);
+#star-burst {
+    position: relative;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background-image: 
+    radial-gradient(circle, yellow, #000033 40%);
+}
 
-    }
-  #star {
+#star {
     position: absolute;
     top: 90px;
     left: 55px;
@@ -31,8 +31,9 @@ body {
     border-bottom: 35px solid yellow;
     border-left: 50px solid transparent;
     transform: rotate(35deg);
-  }
-  #star:before {
+}
+
+#star:before {
     border-bottom: 40px solid yellow;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -44,8 +45,8 @@ body {
     display: block;
     content: '';
     transform: rotate(-35deg);
-  }
-  #star:after {
+}
+#star:after {
     position: absolute;
     display: block;
     color:yellow;
@@ -58,9 +59,9 @@ body {
     border-left: 50px solid transparent;
     transform: rotate(-70deg);
     content: '';
-  }
+}
 
-  #tree-top {
+#tree-top {
     position: absolute;
     left: 200px;
     top: 150px;
@@ -69,9 +70,40 @@ body {
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 150px solid green;
-  }
+}
 
-  #tree-middle {
+#top-ornaments {
+    position: absolute;
+    left: 225px;
+    height: 100px;
+    width: 150px;
+}
+
+.ornament {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, red 40%, #660000);
+}
+
+#top-orn-one {
+    position: absolute;
+    left: 50px;
+}
+
+#top-orn-two {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+#top-orn-three {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+#tree-middle {
     position: absolute;
     left: 150px;
     top: 300px;
@@ -80,9 +112,35 @@ body {
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 150px solid green;
-  }
+}
 
-  #tree-bottom {
+#md-ornaments {
+    position: absolute;
+    left: 175px;
+    top: 300px;
+    height: 150px;
+    width: 250px;
+}
+
+#md-orn-one {
+    position: absolute;
+    left: 150px;
+    top: 40px;
+}
+
+#md-orn-two {
+    position: absolute;
+    left: 200px;
+    top: 75px;
+}
+
+#md-orn-three {
+    position: absolute;
+    left: 50px;
+    top: 70px;
+}
+
+#tree-bottom {
     position: absolute;
     left: 100px;
     top: 450px;
@@ -91,18 +149,44 @@ body {
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 150px solid green;
-  }
+}
 
-  #tree-trunk {
+#bm-ornaments {
+    position: absolute;
+    left: 175px;
+    top: 450px;
+    height: 150px;
+    width: 250px;
+}
+
+#bm-orn-one {
+    position: absolute;
+    left: 175px;
+    top: 30px;
+}
+
+#bm-orn-two {
+    position: absolute;
+    left: 140px;
+    top: 90px;
+}
+
+#bm-orn-three {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#tree-trunk {
     position: relative;
     height: 30px;
     width: 40px;
     top: 400px;
     left: 280px;
     background-image: linear-gradient(to right, #331100, #993300);
-  }
+}
 
-  #tree-trunk:after {
+#tree-trunk:after {
     content: '';
     position: absolute;
     top: 30px;
@@ -112,4 +196,4 @@ body {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 70px solid red;
-  }
+}
